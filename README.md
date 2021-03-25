@@ -1,2 +1,5 @@
 # Guess-The-Number
-Application that prompts the user to find a number between 1 and 1000 shown by JLabels. 
+Task: Write an application that plays "guess the number" as follows: Your application chooses the number to be guessed by selecting an integer at random in the range 1-1000. The application then displays the following in a label:
+     I have a number between 1 and 1000. Can you guess my number?
+     Please enter your first guess.
+A JTextField should be used to input the guess. As each guess is input, the background color should change to either red or blue. Red indicates that the user is getting "warmer", and blue indicates that the user is getting "colder". A JLabel should display either "Too High" or "Too Low" to help the user zero in on the correct answer. When the user gets the correct answer, "Correct!" should be displayed, and the JTextField used for input should be changed to uneditable. A JButton should be provided to allow the user to play the game again. When the JButton is clicked, a new random number should be generated and the input JTextField changed to be editable.
